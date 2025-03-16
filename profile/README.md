@@ -12,7 +12,7 @@ tip.md makes it easy for developers to receive cryptocurrency tips through a sim
 
 ## ✨ How It Works
 
-### For Developers:
+### For Developers or Projects:
 
 1. **Connect GitHub or register via email**
    Sign in to [tip.md](https://tip.md) and save your crypto wallet addresses in your dashboard.
