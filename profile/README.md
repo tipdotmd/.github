@@ -1,7 +1,9 @@
 # 👋 Welcome to tip.md
 
 <div align="center">
-  <img src="https://tip.md/badge.svg" alt="Tip in Crypto" width="150">
+  <a href="https://tip.md/tipdotmd">
+    <img src="https://tip.md/badge.svg" alt="Tip in Crypto" width="150">
+  </a>
   <h3>The crypto bridge for open-source rewards</h3>
   <p>A simple way to receive cryptocurrency tips through your GitHub README</p>
 </div>
