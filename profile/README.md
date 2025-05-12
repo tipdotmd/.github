@@ -1,3 +1,5 @@
+Join our discussion to share feedback : https://github.com/orgs/tipdotmd/discussions/1
+___
 # 👋 Welcome to tip.md
 
 <div align="center">
