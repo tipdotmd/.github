@@ -1,5 +1,3 @@
-Join our discussion to share feedback : https://github.com/orgs/tipdotmd/discussions/1
-___
 # 👋 Welcome to tip.md
 
 <div align="center">
@@ -54,12 +52,36 @@ Simply add this markdown to your README file:
 
 Replace `YOUR_USERNAME` with your tip.md username.
 
+## 🤖 MCP Server for AI Assistants
+
+tip.md offers an MCP (Model Context Protocol) server that allows AI assistants like Claude and Cursor to interact with tip.md's crypto tipping functionality directly.
+
+### Integration Options:
+
+- **Cursor**: Add our service to `~/.cursor/mcp.json`:
+  ```json
+  {
+    "mcpServers": {
+      "tip.md": {
+        "command": "npx mcp-remote https://mcp.tip.md/mcp"
+      }
+    }
+  }
+  ```
+
+- **Sage App**: Add as a Streamable HTTP server with endpoint URL: `https://mcp.tip.md/mcp`
+
+- **Claude Desktop**: Use with Supergateway to bridge HTTP-stream to stdio
+
+For detailed setup instructions, visit our [Documentation](https://tip.md/documentation?tab=mcp-server).
+
 ## 🌟 Benefits
 
 - **Multi-blockchain support** - Accept tips in Ethereum, Solana, and Bitcoin (using Lightning).
 - **Simple integration** - Just add a markdown snippet to your repo README file or any other markdown-supported platform.
 - **Low fees** - Sustainable 4% fee powers our infrastructure and development - the rest is all yours.
 - **No code changes** - No need to modify your application code or implement complex payment systems.
+- **AI integration** - Connect your AI assistants to enable crypto tipping capabilities through our MCP service.
 
 ## 🔍 Examples
 
@@ -71,7 +93,9 @@ Here's how the tip.md button looks in a README:
 
 - [Website](https://tip.md)
 - [Dashboard](https://tip.md/dashboard)
+- [Documentation](https://tip.md/documentation)
 - [Support](mailto:support@tip.md)
+- [Join our discussion](https://github.com/orgs/tipdotmd/discussions/1)
 
 ## 📄 License
 
